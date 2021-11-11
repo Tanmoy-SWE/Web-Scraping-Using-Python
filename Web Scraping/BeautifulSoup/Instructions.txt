@@ -1,0 +1,23 @@
+If we want to scrape a website:
+1. Use the API
+2. HTML Scraping using some tool like bs4
+commands :
+pip install requests
+pip install bs4
+pip install html5lib
+
+
+
+#Fetching the HTML content
+1. In order to work with the HTML, we will have to get the HTML as string
+2. We will leverage the power of Python requests module to get this done
+3. The next step then will be toparse the HTML content and give it a tree like structure so that it can be traversed
+
+#Parse the HTML
+1. Once the HTML is fetched using requests as an string, we need to parse it.
+2. For parsing, we will use python's BeautifulSoup module which will create a tree like structure for our DOM
+
+#Once the HTML is Fetched....
+1. Once the HTML is fetched and parsed, the next step is to manipulate the tree using BeautifulSoup's function to get the job done
+2. Then we will scrape any website and its contents into our desired format
+
